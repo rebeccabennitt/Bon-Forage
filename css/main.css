@@ -1,0 +1,82 @@
+ body {
+    font-family: 'Roboto',sans-serif;
+    background-image: url('../Frontend-Projects/Bon-Forage/Green-Print-Background.png');
+    color: #FFF;
+    overflow-x: hidden;
+}
+
+[class^="mdi-"],[class*="mdi-"] {
+    font-family: "Ionicons";
+}
+
+/*colors*/
+
+/*brand*/
+
+.brand {
+	background-color: #4caf50 !important;
+    background-image: linear-gradient(180deg,rgba(129,199,131,0.5) 0%,rgba(205,220,56,0.08) 100%) !important;
+}
+.brand h1,h2,h3,h4,h5,h6,p,span {
+    font-family: 'Muli',sans-serif;
+    color: #FFF;
+    letter-spacing: 1px;
+    background: inherit;
+}
+
+
+.dark h1,h2,h3,h4,h5,h6,p,span {
+    font-family: 'Muli',sans-serif;
+    color: #616161;
+    letter-spacing: 1px;
+}
+
+.dark .border {
+	color: #616161;
+}
+
+
+/* Tabs */
+
+.tabs .tab a,
+.tabs .tab a:hover {
+	width: 100%;
+    color: #F2F2F2;
+    background-color: #4caf50;
+	background-image: linear-gradient(180deg, rgba(129, 199, 131, 0.5) 0%, rgba(205, 220, 56, 0.08) 100%);
+      }
+.tabs .tab a.active {
+    color: #ffffff;
+    background-color: #4caf50;
+	background-image: linear-gradient(180deg, rgba(129, 199, 131, 0.5) 0%, rgba(205, 220, 56, 0.08) 100%);
+
+      }
+.tabs .indicator {
+    background-color: #ffffff;
+}
+/*menu*/
+
+.side-nav active {
+background-color: #8BC34A;
+}
+
+.side-nav {
+	background-color:#F2f2f2;
+}
+
+.side-nav .row .title {
+font-family: Roboto-Regular;
+font-size: 16px;
+color: rgba(0,0,0,0.87);
+line-height: 24px;
+}
+
+.side-nav .row p {
+font-family: Roboto-Regular;
+font-size: 14px;
+color: rgba(0,0,0,0.54);
+line-height: 20px;
+
+}
+
+
